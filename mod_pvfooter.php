@@ -6,7 +6,7 @@ $language = JFactory::getLanguage();
 $language->load('mod_pvfooter', JPATH_ADMIN);
 
 $document = &JFactory::getDocument();
-$document->addStyleSheet(JPATH_MODULE . DIRECTORY_SEPARATOR . 'style.css');
+$document->addStyleSheet('/modules/mod_pvfooter/style.css');
 
 ?>
 <table class="pf-footer">
