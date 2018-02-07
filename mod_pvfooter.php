@@ -4,7 +4,10 @@ defined('_JEXEC') or die('Direct Access to this location is not allowed.');
 
 $language = JFactory::getLanguage();
 $language->load('mod_pvfooter', JPATH_ADMIN);
+
+$document = &JFactory::getDocument();
 $document->addStyleSheet(JPATH_MODULE . DIRECTORY_SEPARATOR . 'style.css');
+
 ?>
 <table class="pf-footer">
     <tr>
