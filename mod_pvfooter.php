@@ -4,9 +4,9 @@ defined('_JEXEC') or die('Direct Access to this location is not allowed.');
 
 $language = JFactory::getLanguage();
 $language->load('mod_pvfooter', JPATH_ADMIN);
-
+$document->addStyleSheet(JPATH_MODULE . DIRECTORY_SEPARATOR . 'style.css');
 ?>
-<table class="art-footer-table">
+<table class="pf-footer">
     <tr>
         <td><a href="/"><?=JText::_('HOME');?></a></td>
         <td><a href="<?=JText::_('PATH CONTACT US');?>"><?=JText::_('CONTACT US');?></a></td>
