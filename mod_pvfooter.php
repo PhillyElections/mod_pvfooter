@@ -8,7 +8,7 @@ $language->load('mod_pvfooter', JPATH_ADMIN);
 ?>
 <style>
 table.pv-footer {
-	width: 1000px;
+	width: 900px;
 	margin-right: auto;
 	margin-left: auto;
 	background-color: #6B9CBD!important;
