@@ -9,7 +9,7 @@ $language->load('mod_pvfooter', JPATH_ADMIN);
 <style>
 
 table.pv-footer td {
-	width: 14.7%;
+	width: 8.33%;
 }
 </style>
 <table class="pv-footer">
