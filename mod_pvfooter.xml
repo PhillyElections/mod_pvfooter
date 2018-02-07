@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <install type="module" version="1.5.0">
-    <name>PVMapLink</name>
+    <name>PVFooter</name>
     <creationDate>2016-03-05</creationDate>
     <author>Matthew Murphy</author>
     <authorEmail>matthew.e.murphy@phila.gov</authorEmail>
     <authorUrl>http://www.philadelphiavotes.com</authorUrl>
-    <copyright>(C) 2016 City of Philadelphia</copyright>
+    <copyright>(C) 2018 City of Philadelphia</copyright>
     <license>GPL</license>
     <version>0.01</version>
-    <description>Polling Place Lookup (...suggest rename to this when you configure the module display)</description> 
+    <description>Translation capable footer</description> 
     <!-- Listing of all files that should be installed for the module to function -->
     <files>
         <!-- The "module" attribute signifies that this is the main controller file -->
-        <filename module="mod_pvmaplink">mod_pvmaplink.php</filename>
+        <filename module="mod_pvfooter">mod_pvfooter.php</filename>
         <filename>index.html</filename>
-        <folder>js/</folder>
     </files>
      <!-- Optional parameters -->
     <languages>
         <!-- Any language files included with the module -->
-        <language tag="en-GB">en-GB.mod_pvmaplink.ini</language>
-        <language tag="es-ES">es-ES.mod_pvmaplink.ini</language>
+        <language tag="en-GB">en-GB.mod_pvfooter.ini</language>
+        <language tag="es-ES">es-ES.mod_pvfooter.ini</language>
     </languages>
 </install>
