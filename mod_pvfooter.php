@@ -19,7 +19,7 @@ $language->load('mod_pvfooter', JPATH_ADMIN);
         list-style: none;
         font-weight: normal;
         display: inline-block;
-        width: 175px;
+        width: 150px;
     }
     .pv-footer ul {
         padding: 10px 62.5px 10px 62.5px ;
