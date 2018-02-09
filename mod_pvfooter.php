@@ -9,7 +9,7 @@ $language->load('mod_pvfooter', JPATH_ADMIN);
 <style>
     div.pv-footer {
         background-color: #8C887D;
-        width: 1000;
+        width: 1000px;
         height: 34px;
         margin-right: auto;
         margin-left: auto;
