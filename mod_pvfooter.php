@@ -14,16 +14,17 @@ $language->load('mod_pvfooter', JPATH_ADMIN);
         margin-right: auto;
         margin-left: auto;
     }
-    .pv-footer ul li {
+    .pv-footer ul li a {
         font-color: #fff;
         text-decoration: none;
-        list-style: none;
         font-weight: normal;
+    }
+    .pv-footer ul li {
+        list-style: none;
         display: inline-block;
-        width: 150px;
+        padding: 0 15px;
     }
     .pv-footer ul {
-        padding: 10px 62.5px 10px 62.5px ;
     }
 }
 </style>
