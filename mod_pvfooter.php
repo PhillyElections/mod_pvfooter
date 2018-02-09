@@ -13,6 +13,7 @@ $language->load('mod_pvfooter', JPATH_ADMIN);
         height: 34px;
     }
     .pv-footer ul li {
+        text-decoration: none;
         font-color: #fff;
         list-style: none;
         font-weight: normal;
