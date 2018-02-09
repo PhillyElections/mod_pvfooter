@@ -8,7 +8,9 @@ $language->load('mod_pvfooter', JPATH_ADMIN);
 ?>
 <style>
     div.pv-footer {
-        
+        width: 1000;
+        margin-right: auto;
+        margin-left: auto;
     }
     .pv-footer ul li {
         list-style: none;
