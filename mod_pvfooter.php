@@ -7,7 +7,12 @@ $language->load('mod_pvfooter', JPATH_ADMIN);
 
 ?>
 <style>
-
+    ul.pv-footer li {
+        list-style: none;
+    }
+    ul.pv-footer {
+        display: inline-block;
+    }
 }
 </style>
 <div class="pv-footer">
