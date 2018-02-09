@@ -24,9 +24,9 @@ $language->load('mod_pvfooter', JPATH_ADMIN);
         display: inline-block;
         padding: 10px 15px;
     }
-    .pv-footer ul li:hover {
+/*    .pv-footer ul li:hover {
         background-color: #6B9CBD;
-    }
+    }*/
     .pv-footer ul {
         margin-left: auto;
         margin-right: auto;
