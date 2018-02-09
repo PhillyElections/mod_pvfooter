@@ -9,23 +9,20 @@ $language->load('mod_pvfooter', JPATH_ADMIN);
 <style>
     div.pv-footer {
         background-color: #8C887D;
-        width: 100%;
+        width: 1000;
         height: 34px;
+        margin-right: auto;
+        margin-left: auto;
     }
     .pv-footer ul li {
-        text-decoration: none;
         font-color: #fff;
         list-style: none;
         font-weight: normal;
-        vertical-align: middle;
         display: inline-block;
-        margin-right: 2em;
-        margin-left: 2em;
+        width: 175px;
     }
     .pv-footer ul {
-        width:auto;
-        margin-right: auto;
-        margin-left: auto;
+        padding: 10px 62.5px 10px 62.5px ;
     }
 }
 </style>
