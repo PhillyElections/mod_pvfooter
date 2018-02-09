@@ -10,18 +10,22 @@ $language->load('mod_pvfooter', JPATH_ADMIN);
     div.pv-footer {
         background-color: #8C887D;
         width: 1000;
+        height: 34px;
         margin-right: auto;
         margin-left: auto;
     }
     .pv-footer ul li {
+        font-color: #fff;
         list-style: none;
         font-weight: normal;
+        vertical-align: middle;
         display: inline-block;
         margin-right: 2em;
         margin-left: 2em;
     }
     .pv-footer ul {
-        float:center;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
 </style>
