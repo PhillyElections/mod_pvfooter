@@ -9,6 +9,7 @@ $language->load('mod_pvfooter', JPATH_ADMIN);
 <style>
     ul.pv-footer li {
         list-style: none;
+        font-weight: normal;
     }
     ul.pv-footer {
         display: inline-block;
