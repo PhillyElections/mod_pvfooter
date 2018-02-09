@@ -15,7 +15,7 @@ $language->load('mod_pvfooter', JPATH_ADMIN);
         margin-left: auto;
     }
     .pv-footer ul li a {
-        font-color: #fff!important;
+        color: #fff;
         text-decoration: none;
         font-weight: normal;
     }
