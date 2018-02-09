@@ -8,6 +8,7 @@ $language->load('mod_pvfooter', JPATH_ADMIN);
 ?>
 <style>
     div.pv-footer {
+        background-color: #8C887D;
         width: 1000;
         margin-right: auto;
         margin-left: auto;
@@ -16,8 +17,11 @@ $language->load('mod_pvfooter', JPATH_ADMIN);
         list-style: none;
         font-weight: normal;
         display: inline-block;
+        margin-right: 2em;
+        margin-left: 2em;
     }
     .pv-footer ul {
+        float:center;
     }
 }
 </style>
